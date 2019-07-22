@@ -12,7 +12,7 @@
         :data-index="index"
         :class="{isSelected:currentCombination.indexOf(index)!=-1}"
       >
-        <img :src="`/img/Puzzle-${puzzle.srcIdx}.png`" ref="img">
+        <img :src="`./img/Puzzle-${puzzle.srcIdx}.png`" ref="img">
       </div>
       <div class="btn-reset" @click="reset()">重新排列</div>
     </section>
